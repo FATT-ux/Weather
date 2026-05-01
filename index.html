@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/icons.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <input type="text" class="input-header" placeholder="Введите город" id="search">
+            <button class="btn" id="btn">Найти</button>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="welcome">
+            <div class="container">
+                <div class="welcome-information">
+                    <img src="" alt="" class="welcome-img">
+                    <h1 class="temp"></h1>
+                    <h2 class="city">Город</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="detils">
+            <div class="container">
+                <div class="humidity">
+                    <p class="humidity-desc"></p>
+                    <p class="humidity-title">Влажность</p>
+                </div>
+
+                <div class="wind-speed">
+                    <p class="wind-speed-desc"></p>
+                    <p>Скорость ветра</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
