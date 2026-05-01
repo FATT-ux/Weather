@@ -14,7 +14,7 @@ async function checkWeather(city) {
 
     document.querySelector('.city').innerHTML = data.name;
     //достаем .main. это внутри api
-    document.querySelector('.temp').innerHTML = Math.round(data.main.temp) + '&#8451;'; //округляем
+    document.querySelector('.temp').innerHTML = Math.round(data.main.temp) + ' &#8451;'; //округляем
     document.querySelector('.humidity-desc').innerHTML = data.main.humidity + " %";
     document.querySelector('.wind-speed-desc').innerHTML = data.wind.speed + " км/ч";
     //меняем картинку в зависимости от того что в api написано
